@@ -25,7 +25,7 @@ public class TwoDArray {
 
         for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 2; j++) {
-                sum[i][j] = arr1[i][j] * arr2[i][j];
+                sum[i][j] = arr1[i][j] + arr2[i][j];
                 System.out.println(sum[i][j] + " ");
             }
             System.out.println();
@@ -41,11 +41,11 @@ Enter the arr2:
 7 9
 
 sum of the matrix:
-15 
-24 
+8 
+10 
 
-21 
-28 
+10 
+13
 
 
 Process finished with exit code 0
