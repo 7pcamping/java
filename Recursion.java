@@ -18,5 +18,3 @@ OUTPUT:
 3
 4
 5
-
-Process finished with exit code 0
