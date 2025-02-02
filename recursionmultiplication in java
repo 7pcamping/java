@@ -1,0 +1,25 @@
+public class RecursiveMultiplication {
+    // Recursive function to multiply two numbers
+    public static int multiply(int a, int b) {
+        // Base case: if either number is 0, the result is 0
+        if (b == 0) {
+            return 0;
+        }
+        // If b is positive, recursively add 'a' to itself 'b' times
+        if (b > 0) {
+            return a + multiply(a, b - 1);
+        }
+        // If b is negative, adjust the signs and call the function recursively
+        return -multiply(a, -b);
+    }
+
+    public static void main(String[] args) {
+        int num1 = 5;
+        int num2 = -3;
+        int result = multiply(num1, num2);
+        System.out.println(num1 + " * " + num2 + " = " + result);
+    }
+}
+OUTPUT:
+5 * -3 = -15
+
