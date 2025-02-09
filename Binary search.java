@@ -4,7 +4,7 @@ public class BinarySearchExample {
     // Binary Search function
     public static int binarySearch(int arr[], int left, int right, int target) {
         while (left <= right) {
-            int mid = left + (right - left) / 2; // Calculate mid index
+            int mid = left + (right - left) / 2; 
 
             // Check if target is present at mid
             if (arr[mid] == target)
@@ -35,4 +35,4 @@ public class BinarySearchExample {
     }
 }
 OUTPUT:
-Element 23 found at index 5
+Element 23 found at index 5;
