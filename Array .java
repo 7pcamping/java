@@ -12,7 +12,7 @@ public class Array {
     }
 }
 
-OUTPUT:
+OUTPUT:-
 91
 98
 95
